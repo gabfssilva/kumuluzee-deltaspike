@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.weld.probe:weld-probe-core:2.3.3.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.weld.probe/weld-probe-core/2.3.3.Final/36ed4ffeef4f2346fcca4e1bd41d8b0d0c1d7113/weld-probe-core-2.3.3.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.weld.probe/weld-probe-core/2.3.3.Final/fabb2b958e934edf14fa4bee39fbb0aa093bacda/weld-probe-core-2.3.3.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

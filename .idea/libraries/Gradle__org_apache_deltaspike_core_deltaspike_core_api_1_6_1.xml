@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.deltaspike.core:deltaspike-core-api:1.6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.core/deltaspike-core-api/1.6.1/9f5836fb95ba1bea7c5661c3c314efb75949e387/deltaspike-core-api-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.core/deltaspike-core-api/1.6.1/20916babf1b6fef8897e583702979b20dbb8d435/deltaspike-core-api-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

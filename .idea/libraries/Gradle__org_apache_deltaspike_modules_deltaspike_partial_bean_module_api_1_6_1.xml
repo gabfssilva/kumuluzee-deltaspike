@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.deltaspike.modules:deltaspike-partial-bean-module-api:1.6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.modules/deltaspike-partial-bean-module-api/1.6.1/5f1ce079544e96ad42ec8ffbaad7a9ca7eea0f4e/deltaspike-partial-bean-module-api-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.modules/deltaspike-partial-bean-module-api/1.6.1/924c346b0f3b6fb22538de4bc004718ed196609/deltaspike-partial-bean-module-api-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

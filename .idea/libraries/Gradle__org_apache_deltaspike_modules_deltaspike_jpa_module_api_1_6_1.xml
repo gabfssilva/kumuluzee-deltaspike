@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.deltaspike.modules:deltaspike-jpa-module-api:1.6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.modules/deltaspike-jpa-module-api/1.6.1/df439040dbe96dc1338c78131bceb2ccf7dfb3c3/deltaspike-jpa-module-api-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.modules/deltaspike-jpa-module-api/1.6.1/aafb542219d15d407a5bdb9145e5e25c11f06110/deltaspike-jpa-module-api-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

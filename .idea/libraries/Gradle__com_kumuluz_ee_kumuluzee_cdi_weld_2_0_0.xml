@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kumuluz.ee:kumuluzee-cdi-weld:2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kumuluz.ee/kumuluzee-cdi-weld/2.0.0/3bc658a63ea94b38aa29e53439899d60ee57a850/kumuluzee-cdi-weld-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kumuluz.ee/kumuluzee-cdi-weld/2.0.0/8216f25fd742417059913d951fbf62c422c5c8d6/kumuluzee-cdi-weld-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,44 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+sourceSets {
+    main {
+        output.resourcesDir = "build/classes/main"
+    }
+}
+
+mainClassName = 'com.kumuluz.ee.EeApplication'
+
+def kumuluzVersion = '2.0.0'
+def deltaSpikeVersion = '1.6.1'
+
+dependencies {
+    compile group: 'com.kumuluz.ee', name: 'kumuluzee-core', version: kumuluzVersion
+    compile group: 'com.kumuluz.ee', name: 'kumuluzee-servlet-jetty', version: kumuluzVersion
+    compile group: 'com.kumuluz.ee', name: 'kumuluzee-cdi-weld', version: kumuluzVersion
+    compile group: 'com.kumuluz.ee', name: 'kumuluzee-jax-rs-jersey', version: kumuluzVersion
+    compile group: 'com.kumuluz.ee', name: 'kumuluzee-bean-validation-hibernate-validator', version: kumuluzVersion
+    compile group: 'com.kumuluz.ee', name: 'kumuluzee-jpa-eclipselink', version: kumuluzVersion
+
+    compile group: 'org.apache.deltaspike.core', name:'deltaspike-core-api', version: deltaSpikeVersion
+    compile group: 'org.apache.deltaspike.core', name:'deltaspike-core-impl', version: deltaSpikeVersion
+
+    compile group: 'org.apache.deltaspike.modules', name:'deltaspike-jpa-module-api', version: deltaSpikeVersion
+    compile group: 'org.apache.deltaspike.modules', name:'deltaspike-jpa-module-impl', version: deltaSpikeVersion
+
+    compile group: 'org.apache.deltaspike.modules', name:'deltaspike-data-module-api', version: deltaSpikeVersion
+    compile group: 'org.apache.deltaspike.modules', name:'deltaspike-data-module-impl', version: deltaSpikeVersion
+
+    compile 'javax.transaction:jta:1.1'
+
+    compile group: 'com.h2database', name: 'h2', version: '1.4.191'
+
+    testCompile 'junit:junit:4.12'
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.deltaspike.modules:deltaspike-proxy-module-api:1.6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.modules/deltaspike-proxy-module-api/1.6.1/f57d69a95ce74435661405482ae6d6cce28018d0/deltaspike-proxy-module-api-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.modules/deltaspike-proxy-module-api/1.6.1/b66aa34d397fd6900efeba346826552451abc748/deltaspike-proxy-module-api-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

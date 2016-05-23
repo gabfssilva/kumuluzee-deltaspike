@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kumuluz.ee:kumuluzee-servlet-jetty:2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kumuluz.ee/kumuluzee-servlet-jetty/2.0.0/3f42fe6130ba077e4506cbc8962e35801fb5f891/kumuluzee-servlet-jetty-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kumuluz.ee/kumuluzee-servlet-jetty/2.0.0/8b35c998b0ffcbfc3984376ff6e0448db3bc1f73/kumuluzee-servlet-jetty-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

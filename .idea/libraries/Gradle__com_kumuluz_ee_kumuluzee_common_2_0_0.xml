@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kumuluz.ee:kumuluzee-common:2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kumuluz.ee/kumuluzee-common/2.0.0/8ce950aa875c4ad67588c78b4d49141e17d15e2f/kumuluzee-common-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kumuluz.ee/kumuluzee-common/2.0.0/24335bc3b774dc535339b6733924ce42bd9ca8c/kumuluzee-common-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

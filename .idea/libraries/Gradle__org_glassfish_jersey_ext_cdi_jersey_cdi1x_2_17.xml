@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.glassfish.jersey.ext.cdi:jersey-cdi1x:2.17">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext.cdi/jersey-cdi1x/2.17/bcbb0c00bf44349dc231eca702e973cccecae9aa/jersey-cdi1x-2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext.cdi/jersey-cdi1x/2.17/712a8eb26c8660c780e38c0e3cf9fddabaa87522/jersey-cdi1x-2.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
