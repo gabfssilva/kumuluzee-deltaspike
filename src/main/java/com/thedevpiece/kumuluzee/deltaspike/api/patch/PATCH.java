@@ -1,4 +1,4 @@
-package com.thedevpiece.kumuluzee.deltaspike.api.utils;
+package com.thedevpiece.kumuluzee.deltaspike.api.patch;
 
 import javax.ws.rs.HttpMethod;
 import javax.ws.rs.NameBinding;

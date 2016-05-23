@@ -1,4 +1,4 @@
-package com.thedevpiece.kumuluzee.deltaspike.api.utils;
+package com.thedevpiece.kumuluzee.deltaspike.api.patch;
 
 /**
  * @author Gabriel Francisco <gabfssilva@gmail.com>
@@ -32,7 +32,5 @@ public class OperationRequest {
         this.value = value;
     }
 
-    public enum Operation {
-        ADD, REPLACE, REMOVE;
-    }
+
 }

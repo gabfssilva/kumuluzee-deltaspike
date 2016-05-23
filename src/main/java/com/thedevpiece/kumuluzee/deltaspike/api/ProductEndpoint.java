@@ -1,7 +1,6 @@
 package com.thedevpiece.kumuluzee.deltaspike.api;
 
-import com.thedevpiece.kumuluzee.deltaspike.api.utils.OperationRequest;
-import com.thedevpiece.kumuluzee.deltaspike.api.utils.PATCH;
+import com.thedevpiece.kumuluzee.deltaspike.api.patch.*;
 import com.thedevpiece.kumuluzee.deltaspike.entities.base.Envelop;
 import com.thedevpiece.kumuluzee.deltaspike.api.exceptions.GenericHttpException;
 import com.thedevpiece.kumuluzee.deltaspike.entities.Product;
@@ -9,6 +8,8 @@ import com.thedevpiece.kumuluzee.deltaspike.repositories.ProductRepository;
 import org.apache.deltaspike.jpa.api.transaction.Transactional;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.inject.Any;
+import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.ws.rs.*;
@@ -34,7 +35,8 @@ public class ProductEndpoint {
     private ProductRepository repository;
 
     @Inject
-    private EntityManager entityManager;
+    @Any
+    private Instance<PatchOperation> patchOperations;
 
     @GET
     @Path("/{id}")
@@ -64,14 +66,15 @@ public class ProductEndpoint {
         if (product == null) throw new GenericHttpException(404, "Resource not found");
 
         operations.forEach(e -> {
+            final PatchOperation operation = this.patchOperations.select(new PathOpLiteral(e.getOp())).get();
             final String property = e.getPath().replace("/", "");
 
             switch (property) {
                 case "description":
-                    product.setDescription((String) e.getValue());
+                    operation.handle(proposedValue -> product.setDescription((String) proposedValue), e.getValue());
                     break;
                 case "value":
-                    product.setValue(new BigDecimal((Double) e.getValue()));
+                    operation.handle(proposedValue -> product.setValue(proposedValue == null ? null : new BigDecimal((Double) proposedValue)), e.getValue());
                     break;
             }
         });
